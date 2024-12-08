@@ -1,21 +1,26 @@
 Title: My-WebApp
+
 Summary:
 My-WebApp is a robust web application built with the MEAN stack (MongoDB,
 Express, Angular, Node.js). The application provides a secure platform for user
 management and item interaction with full CRUD (Create, Read, Update, Delete)
 functionality. Users can register, log in, and manage their personalized data while
 benefiting from an intuitive, seamless design.
+
 The SPA (Single Page Application) is developed using Angular and oﬀers a dynamic
 and responsive user interface. It communicates with the RESTful API (built using
 Express and Node.js) to handle all backend operations, including user authentication
 and data management. MongoDB serves as the application's database, ensuring
 eﬃcient and scalable storage for user data and application items.
+
 Key features include:
 • User authentication with login/logout functionality.
 • Role-based access to CRUD operations.
 • A consistent, visually appealing theme with easy navigation.
 • Secure handling of user data and session management.
+
 Design Specifications:
+
 Architecture
 • Front End: Built with Angular, the SPA ensures a responsive and modern user
 experience with smooth transitions and routing.
@@ -23,6 +28,7 @@ experience with smooth transitions and routing.
 facilitating secure, scalable data operations.
 • Database: MongoDB is used for storing user and application data, providing a
 NoSQL solution optimized for performance and scalability.
+
 Look and Feel
 • The application employs a consistent purple color palette for a modern and
 professional look.
@@ -34,6 +40,7 @@ reserved | Abdul Haseeb Mohammed").
 broken elements.
 • All content is original, and media is sourced from public domain or Creative
 Commons, with proper attribution as needed.
+
 Future Work:
 As a Minimum Viable Product (MVP), My-WebApp provides essential features for early
 adopters but has room for enhancement:
