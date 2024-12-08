@@ -1,11 +1,3 @@
-<!--
-  ~ Copyright (c) 2024. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  ~ Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan.
-  ~ Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.
-  ~ Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.
-  ~ Vestibulum commodo. Ut rhoncus gravida arcu.
-  -->
-
 <mat-spinner *ngIf="isLoading"></mat-spinner>
 <mat-accordion multi="true" *ngIf="posts.length>0 && !isLoading">
   <!--    structure directives-->
@@ -14,7 +6,7 @@
       {{post.title}}
     </mat-expansion-panel-header>
     <p>{{post.content}}</p>
-    <mat-action-row>
+    <mat-action-row *ngIf="userIsAuthenticated">
       <button mat-button color="primary" [routerLink]="['/edit', post.id]">Edit</button>
       <button mat-button color="warn" (click)="onDelete(post.id)">Delete</button>
     </mat-action-row>
